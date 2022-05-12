@@ -1,16 +1,6 @@
 document.getElementById('portfolio').innerText=" Portfolio";
 $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
-        // .navbar .logo a{
-        //     color: #fff;
-        //     font-size: 35px;
-        //     font-weight: 600;
-        // }
-        // .navbar .logo a span{
-        //     color: crimson;
-        //     transition: all 0.3s ease;
-        // }
         if(this.scrollY > 40){
             document.getElementById('ShubhGupta').style.transition="all 0.5s ease";
             document.getElementById('ShubhGupta').innerText="SG";
