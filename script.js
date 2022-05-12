@@ -47,14 +47,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Coder", "Developer", "Traveller", "Gamer", "Freelancer"],
+        strings: ["Engineer", "Developer", "Traveller", "Gamer", "Artist","Coder"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Coder", "Developer", "Traveller", "Gamer", "Freelancer"],
+        strings: ["Engineer", "Developer", "Traveller", "Gamer", "Artist","Coder"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
