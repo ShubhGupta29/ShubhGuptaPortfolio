@@ -709,9 +709,10 @@ footer span a:hover{
     }
 }
 
-@media (max-width: 500px) {*
+@media (max-width: 400px) {*
     *{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
+        width: auto;
     }
     .home .home-content .text-2{
         font-size: 50px;
