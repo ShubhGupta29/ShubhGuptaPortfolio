@@ -72,11 +72,11 @@ $(document).ready(function(){
                 items: 1,
                 nav: false
             },
-            600:{
+            800:{
                 items: 2,
                 nav: false
             },
-            1000:{
+            1200:{
                 items: 3,
                 nav: false
             }
