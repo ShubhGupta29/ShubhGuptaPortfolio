@@ -89,7 +89,7 @@ const Texts = [
     'Typescript', 'Angular', 'Java',
     'SpringBoot', 'RESTful API',
     'Bootstrap', 'Material Angular', 'Ruby',
-    'Python', 'MYSQL', 'GIT', 'JAVA'
+    'Python', 'MYSQL', 'GIT'
 ];
 
 var tagCloud = TagCloud('.Sphere', Texts, {
