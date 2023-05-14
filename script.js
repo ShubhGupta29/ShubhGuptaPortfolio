@@ -47,14 +47,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Coder", "Developer", "Traveller", "Gamer", "Freelancer"],
+        strings: ["Engineer", "Developer", "Traveller", "Gamer", "Artist","Coder"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Coder", "Developer", "Traveller", "Gamer", "Freelancer"],
+        strings: ["Engineer", "Developer", "Traveller", "Gamer", "Artist","Coder"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -72,11 +72,11 @@ $(document).ready(function(){
                 items: 1,
                 nav: false
             },
-            600:{
+            800:{
                 items: 2,
                 nav: false
             },
-            1000:{
+            1200:{
                 items: 3,
                 nav: false
             }
@@ -89,7 +89,7 @@ const Texts = [
     'Typescript', 'Angular', 'Java',
     'SpringBoot', 'RESTful API',
     'Bootstrap', 'Material Angular', 'Ruby',
-    'Python', 'MYSQL', 'GIT', 'JAVA'
+    'Python', 'MYSQL', 'GIT'
 ];
 
 var tagCloud = TagCloud('.Sphere', Texts, {
