@@ -54,7 +54,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Engineer", "Developer", "Traveller", "Gamer", "Artist","Coder"],
+        strings: ["Engineer", "Develope", "Travel", "Game","Code"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
