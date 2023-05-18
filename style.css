@@ -270,7 +270,7 @@ section .title::after{
     animation-timing-function: ease-in-out;
 }
 @keyframes bounce {
-	0% {
+	0% , 20% , 40%, 60%, 80%{
 		transform: translateY(0);
 	}
 	40% {
@@ -800,11 +800,35 @@ footer span a:hover{
 }
 
 @media (max-width: 400px) {
+    .navbar .logo a{
+        width: 50%;
+    }
+    .navbar .logo a span{
+        font: 12px;
+    }
+    .navbar .logo a p{
+        font: 12px;
+    }
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 30px;
+    }
+    .home .home-content .text-2 p{
+        font-size: 30px;
+        padding-top: 0;
     }
     .home .home-content .text-3{
-        font-size: 27px;
+        font-size: 17px;
+    }
+    .home .home-content .text-4{
+        font-size: 16px;
+        width: 70%;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
     }
     .about .about-content .right .text,
     .skills .skills-content .left .text{

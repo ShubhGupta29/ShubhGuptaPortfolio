@@ -1,6 +1,21 @@
 document.getElementById('portfolio').innerText=" Portfolio";
+// function sendMsg() {
+//     console.log("Strat");
+//     var cName=document.getElementById("clientName").value;
+//     var cEmail=document.getElementById("clientEmail").value;
+//     var cMsg=document.getElementById("msg").value;
+//     console.log(cName,cEmail,cMsg);
+//     var url="mailto:reachshubhgupta@gmail.com/?body="+cMsg;
+//     console.log(url)
+//     window.URL(url)
+// }
+
 $(document).ready(function(){
     $(window).scroll(function(){
+
+        var windowWidth = $(window).width();
+
+        if (windowWidth > 400) {
         if(this.scrollY > 40){
             document.getElementById('ShubhGupta').style.transition="all 0.5s ease";
             document.getElementById('ShubhGupta').innerText="SG";
@@ -10,6 +25,7 @@ $(document).ready(function(){
             // document.getElementById('menu').style.color="crimson";
             document.getElementById('navbar').addClass("sticky");
         }else{
+            
             document.getElementById('ShubhGupta').style.transition="all 0.5s ease";
             document.getElementById('ShubhGupta').innerHTML="Shubh Gupta ";
             document.getElementById('ShubhGupta').style.color="#fff";
@@ -17,7 +33,9 @@ $(document).ready(function(){
             document.getElementById('portfolio').innerText=" Portfolio";
             // document.getElementById('menu').style.color="#fff";S
             document.getElementById('navbar').removeClass("sticky");
+            
         }
+    }
         
         // scroll-up button show/hide script
         if(this.scrollY > 500){
@@ -26,6 +44,22 @@ $(document).ready(function(){
             document.getElementById('scroll-up-btn').removeClass("show");
         }
     });
+
+    $(document).ready(function() {
+        var windowWidth = $(window).width();
+        
+        if (windowWidth <= 400) {
+            document.getElementById('ShubhGupta').style.transition="all 0.5s ease";
+            document.getElementById('ShubhGupta').innerText="SG";
+            document.getElementById('ShubhGupta').style.color="crimson";
+            // document.getElementById('ShubhGupta').style.marginLeft="-64px"
+            document.getElementById('portfolio').innerText="";
+            // document.getElementById('menu').style.color="crimson";
+            document.getElementById('navbar').addClass("sticky");
+        } else {
+          console.log("Mobile or tablet screen");
+        }
+      });
 
     // slide-up script
     $('.scroll-up-btn').click(function(){
@@ -54,7 +88,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Engineer", "Developer", "Traveller", "Gamer", "Artist","Coder"],
+        strings: ["Engineer", "Develope", "Travel", "Game","Code"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -113,6 +147,7 @@ var tagCloud = TagCloud('.Sphere', Texts, {
 // Giving color to each text in sphere
 var color = 'crimson';
 document.querySelector('.Sphere').style.color = color;
+
 
     //   cursor
 
