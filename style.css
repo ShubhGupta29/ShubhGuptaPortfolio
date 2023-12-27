@@ -1,6 +1,11 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+:root {
+    --dark-primary-color: #111; /* Define a primary color variable */
+    --dark-secondary-color: crimson; /* Define a secondary color variable */
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +25,7 @@ html{
     background: #111;
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(219, 83, 110);
+    background: crimson;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -55,7 +60,8 @@ section .title{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -475,7 +481,7 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .java::before{
-    width: 70%;
+    width: 80%;
 }
 .skills-content .right .springboot::before{
     width: 80%;
@@ -576,13 +582,20 @@ section .title::after{
 .contact .contact-content .left .icons{
     margin: 10px 0;
 }
+.contact .contact-content .left #map{
+    border: solid 2px crimson;
+    padding: 0.35rem;
+    display: flex;
+}
 .contact .contact-content .row{
     display: flex;
     height: 65px;
     align-items: center;
 }
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    margin-left: 1rem;
+    display: inline-flex;
+    flex-direction: row;
 }
 .contact .contact-content .row i{
     font-size: 25px;
@@ -813,17 +826,17 @@ footer span a:hover{
         font: 12px;
     }
     .home .home-content .text-2{
-        font-size: 30px;
+        font-size: 36px;
     }
     .home .home-content .text-2 p{
         font-size: 24px;
-        padding-top: 0;
+        padding-top: 8px;
     }
     .home .home-content .text-3{
-        font-size: 24px;
+        font-size: 28px;
     }
     .home .home-content .text-4{
-        font-size: 20px;
+        font-size: 26px;
         width: 85%;
     }
     .menu-btn{
