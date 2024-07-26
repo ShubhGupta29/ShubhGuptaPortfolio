@@ -487,7 +487,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .js::before{
-    width: 60%;
+    width: 70%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
@@ -593,7 +593,7 @@ section .title::after{
     align-items: center;
 }
 .contact .contact-content .row .info{
-    margin-left: 1rem;
+    margin-left: 0.75rem;
     display: inline-flex;
     flex-direction: row;
 }
@@ -647,6 +647,21 @@ section .title::after{
   display: flex;
   align-items: center;
 }
+.libutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: crimson;
+    font-family: "SF Pro Text", Helvetica, sans-serif;
+  }
 .right form .button-area button{
   color: #fff;
   display: block;
