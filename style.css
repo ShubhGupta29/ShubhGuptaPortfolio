@@ -647,6 +647,21 @@ section .title::after{
   display: flex;
   align-items: center;
 }
+.libutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: crimson;
+    font-family: "SF Pro Text", Helvetica, sans-serif;
+  }
 .right form .button-area button{
   color: #fff;
   display: block;
