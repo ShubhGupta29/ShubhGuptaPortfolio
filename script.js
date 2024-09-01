@@ -191,3 +191,18 @@ document.addEventListener("DOMContentLoaded", function () {
   // Append the iframe to the container
   container.appendChild(iframe);
 });
+
+const elements = document.querySelectorAll(".text-2 span");
+
+elements.forEach((element) => {
+  element.addEventListener("mouseout", (e) => {
+    console.log("classlist e sg ", e);
+    if (e.target.classList.contains("hoveredColor")) {
+      e.target.classList.remove("hoveredColor");
+      e.target.classList.add("unHoveredColor");
+    } else {
+      e.target.classList.add("hoveredColor");
+      e.target.classList.remove("unHoveredColor");
+    }
+  });
+});

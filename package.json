@@ -1,0 +1,24 @@
+{
+  "name": "shubh-gupta",
+  "version": "1.0.0",
+  "description": "Short view on me and myself",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhGupta29/ShubhGuptaPortfolio.git"
+  },
+  "keywords": [
+    "Shubh",
+    "Gupta",
+    "Java",
+    "Angular",
+    "MySQL",
+    "Git"
+  ],
+  "author": "Shubh Gupta",
+  "license": "MIT",
+  "homepage": "https://shubhgupta29.github.io/ShubhGuptaPortfolio/"
+}
